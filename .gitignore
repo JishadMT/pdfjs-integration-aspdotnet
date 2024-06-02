@@ -1,1 +1,5 @@
 .vs
+/PdfJsIntegration/bin/*
+/PdfJsIntegration/obj/*
+/PdfJsIntegration/obj/Debug/net8.0/ref/PdfJsIntegration.dll
+/PdfJsIntegration/obj/Debug/net8.0/refint/PdfJsIntegration.dll
