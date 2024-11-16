@@ -29,10 +29,10 @@
         this.viewer.addEventListener('wheel', (e) => {
             if (e.ctrlKey) {
                 e.preventDefault();
-                if (e.deltaY > 0) {
+                if (e.deltaY < 0) {
                     onZoomIn(pdfRendererInstance);
                 }
-                else if (e.deltaY < 0) {
+                else if (e.deltaY >= 0) {
                     onZoomOut(pdfRendererInstance);
                 }
             }
